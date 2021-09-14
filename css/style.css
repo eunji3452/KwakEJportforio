@@ -7,18 +7,23 @@ img{vertical-align: top;}
 /* wrap */
 .wrap {position: relative; overflow: hidden;}
 .wrap .bgbox {position: absolute;}
-.wrap .bgbox1 {top: 30%; right: -7%;}
-.wrap .bgbox2 {top: 55%; left: -10px;}
+.wrap .bgbox1 {top: 30%; right: -7%; }
+.wrap .bgbox1 img {width: 17.96875vw; height: 15.26041vw;}
+.wrap .bgbox2 {top: 55%; left: -10px; }
+.wrap .bgbox2 img {width: 16.30208vw; height: 17.0833vw;}
 .wrap .bgbox3 {top: 75%; right: -10px;}
-.wrap .bgbox4 {top: 85%; left: -7%;}
-.wrap .bgbox5 {bottom: 2%; right: 8%;}
+.wrap .bgbox3 img { width: 13.95833vw; height: 10.78125vw;}
+.wrap .bgbox4 {top: 85%; left: -7%; }
+.wrap .bgbox4 img {width: 18.07291vw; height: 15.2083vw;}
+.wrap .bgbox5 {bottom: 2%; right: 8%; }
+.wrap .bgbox5 img {width: 19.73958vw; height: 17.760416vw;}
 /* header */
 header {
-    position: absolute; height: 100px; top: 0; left: 0; z-index: 1000;
+    position: absolute; height: 5.20833vw; top: 0; left: 0; z-index: 1000;
 }
 header .logo {
     background: url(../images/logo2mc.png) no-repeat 50% 50% / contain;
-    width: 100px; height: 100px;
+    width: 5.20833vw; height: 5.20833vw;
     position: absolute; left: 20px; top: 20px;
     text-indent: -9999px; 
 }
@@ -36,8 +41,8 @@ main {
 }
 main .titlebox{
     position: absolute;
-    width: 50%;
-    left: 24.32291%; top: 265px;
+    width: 40vw;
+    left: 24.32291%; top: 28.28175vh;
     font-family: 'SpoqaHanSansR';
 }
 main .titlebox li {
@@ -45,14 +50,14 @@ main .titlebox li {
 }
 main .titlebox li.flex {
     display: flex;
-    line-height: 100px;
+    line-height: 5.208333vw;
 }
 main .titlebox li h1 {
     margin: 0;
-    font-size: 3.8rem;
+    font-size: 3vw;
 }
 main .titlebox li .br {
-    width: 40px; height: 100px;
+    width: 2.083333vw; height: 5.208333vw;
     text-indent: -9999px;
 }
 main .titlebox li .brL{background: url(../images/brLL.png) no-repeat 50% 50% / contain;}
@@ -64,36 +69,32 @@ main .keyword {
     font-weight: bold;
 }
 main .keyword1{
-    top: 171px; left:  151px;
-    width: 245px; height: 245px;
-    text-align: center; line-height: 245px;
+    top: 18.24973vh; left:7.86458vw;
+    width: 12.76041vw; height: 12.76041vw;
+    text-align: center; line-height: 12.76041vw;
     background-color: rgb(247, 157, 157);
-    font-size: 3rem;
+    font-size: 3vw;
     transition: 0.4s;
 }
-main .keyword1:hover {
-    opacity: 0.6;
-    width: 200px; height: 200px;
-    line-height: 200px;
-}
+
 main .keyword2{
-    bottom: 15px; left: 48.125vw;
-    width: 358px; height: 358px;
-    text-align: center; line-height: 358px;
+    bottom: 1.60085vh; left: 48.125vw;
+    width: 18.64583vw; height: 18.64583vw;
+    text-align: center; line-height: 18.64583vw;
     background-color: #D7FF9A;
-    font-size: 3.2rem;
+    font-size: 3.1vw;
 }
 main .keyword3{
-    top: -9.60512vh; right: 147px;
-    width: 601px; height: 601px;
-    text-align: center; line-height: 601px;
+    top: -9.60512vh; right: 7.65625vw;
+    width: 31.30208vw; height: 31.30208vw;
+    text-align: center; line-height: 31.30208vw;
     background-color: #FCC96D;
-    font-size: 6rem;
+    font-size: 6vw;
 }
 main .keyword4{
-    top: 436px; right: 17px;
-    width: 151px; height: 151px;
-    text-align: center; line-height: 151px;
+    top: 46.5314vh; right: 0.885416vw;
+    width:  7.864583vw; height:  7.864583vw;
+    text-align: center; line-height:  7.864583vw;
     background-color: rgb(24, 168, 164);
     text-indent: -9999px;
 }
@@ -101,26 +102,30 @@ main img {
     position: absolute;
 }
 main .leftLeaves{
-    left: -10px; bottom: 220px;
+    left: -0.520833vw; bottom: 16.00853vh;
+    width: 19.89583vw; height: 15.46875vw;
 }
 main .Downtwinkle{
-    bottom: 220px; left: 332px;
+    bottom: 16.00853vh; left: 17.29166vw;
+    width: 7.44791vw; height: 6.45833vw;
 }
 main .rightLeaves{
-    right: -10px; bottom: 100px;
+    right: -0.520833vw; bottom: 10.67235vh;
+    width: 19.89583vw; height: 15.46875vw;
 }
 main .Uptwinkle{
-    left: 960px; top: 148px;
+    left: 50vw; top: 9.79509vw;
+    width: 7.44791vw; height: 6.45833vw;
 }
 
 main #typewriter {
-    font-size: 5rem;
+    font-size: 5vw;
     color: #fff;
 
 }
 /* contents */
 .contents {
-    margin: 280px 300px auto;
+    margin: 29.8826vh 15.625vw auto;
     padding: 0;
     text-align: center;
     overflow: hidden;
@@ -128,7 +133,7 @@ main #typewriter {
 
 .contents h2 {
     font-family: 'Lato';
-    font-size: 60px;
+    font-size: 3.125vw;
     text-transform: uppercase;
     margin: 0;
 }
@@ -136,22 +141,22 @@ main #typewriter {
 .contents h3 {
     font-family: 'Kaisei HarunoUmi', serif;
     text-transform: uppercase;
-    font-size: 41px;
+    font-size: 2.1354vw;
     font-weight: normal;
-    margin: 0 0 100px;
+    margin: 0 0 10.67235vh;
 }
 .contents h3 span {
-    font-size: 60px;
+    font-size: 3.125vw;
 }
 
 .contents p {
-    font-size: 36px;
+    font-size: 1.875vw;
     font-family: 'SpoqaHanSansR';
     line-height: 50px;
 }
 /* contents pf */
 .contents .portforio h2 {
-    margin-bottom: 100px;
+    margin-bottom: 10.67235vh;
 }
 .contents .portforio .pfbox {
     width: 100%; height: 90vh;
@@ -164,10 +169,10 @@ main #typewriter {
     flex-flow: row-reverse;
 }
 .contents .portforio .pfbox img {
-    width:590px ; height: 408px;
+    width:30.7291vw ; height: 21.25vw;
     display: block;
-    margin-top: 165px;
-    margin-right: 20px;
+    margin-top: 8.59375vw;
+    margin-right: 1.041666vw;
     border: 4px solid #000;
     box-sizing: border-box;
     
@@ -175,17 +180,17 @@ main #typewriter {
 
 .contents .portforio .pfbox .subTxt{
     box-sizing: border-box;
-    width: 660px;
+    width: 34.375vw;
 }
 
 .contents .portforio .pfbox .subTxt ul {
-    height: 400px;
+    height: 42.689434vh;
     display: flex;
     flex-flow: wrap column;
     justify-content: space-between;
-    font-size: 36px;
+    font-size: 1.875vw;
     font-family: 'SpoqaHanSansR';
-    line-height: 50px;
+    line-height: 2.60416vw;
 }
 .contents .portforio .pfbox .subTxt ul li:last-child {
     font-weight: bold;
@@ -194,14 +199,14 @@ main #typewriter {
 }
 /* subcontents */
 .contents .subconts {
-    margin-top: 100px;
+    margin-top: 10.67235vh;
 }
 /* contents skills */
 .contents .skills{
     width: 100%;
 }
 .contents .skills h2 {
-    margin: 100px 0;
+    margin: 10.67235vh 0;
     width: 100%;
 }
 
@@ -212,11 +217,11 @@ main #typewriter {
 }
 .contents .skills .skillTxt h4 {
     border: 3px solid #000;
-    width: 179px; height: 73px;
+    width: 9.322916vw; height: 3.80208vw;
     text-align: right;
-    font-size: 1.625rem;
+    font-size: 1.625vw;
     box-sizing: border-box;
-    padding: 5px;
+    padding:  0.26041vw;
     text-transform: capitalize;
     margin: 0 auto;
     display: flex;
@@ -260,8 +265,8 @@ main #typewriter {
 .contents .skills .skillTxt .skillSub {
     font-family: 'SpoqaHanSansR';
     text-align: right;
-    line-height: 3rem;
-    font-size: 24px;
+    line-height: 3vw;
+    font-size: 1.25vw;
 }
 .contents .skills .skillTxt .XD {
     text-align: left;
@@ -273,63 +278,69 @@ main #typewriter {
     flex-flow: wrap;
     justify-content: space-around;
     align-items: center;
-    margin-bottom: 200px;
+    margin-bottom: 10.41666vw;
 }
 .contents .states h3 {
     width: 100%;
-    margin-bottom: 100px;
+    margin-bottom: 5.20833vw;
 }
 .contents .states .stat {
     border: 4px solid #000;
-    width: 640px;
-    height: 550px;
+    width: 33.333333vw;
+    height: 28.64583vw;
 }
 .contents .states .stat .statline {
     box-sizing: border-box;
-    background-color: #000; height: 55px;
+    background-color: #000; height:2.86458vw;
     border-bottom: 4px solid #000;
     display: flex;
     justify-content: space-between; align-items: center;
 }
 .contents .states .stat .statline .txt {
-    width:580px ;
+    width:30.20833vw ;
 }
 .contents .states .stat .statline .close {
     background-color: #FCC96D;
-    width: 51px; height: 51px;
+    width: 2.65625vw; height: 2.65625vw;
     text-indent: -9999px;
     cursor: pointer;
     background: url(../images/upBtn.png) no-repeat #FCC96D 50% 50% / contain;
 }
 
 .contents .states .stat .statbox {
-    height: 498px;
+    height:  25.9375vw;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+.contents .states .stat .statbox img {
+    width: 23.6979vw; height: 20.67708vw;
+}
 .contents .states .me .character {
-    margin-top: 100px;
+    margin-top: 5.208333vw;
+}
+.contents .states .me .character img {
+    width: 14.47916vw; height: 14.58333vw;
 }
 .contents .states .me .name {
     text-transform: uppercase;
     font-family: 'Lato', sans-serif;
     font-weight: 100; 
-    font-size: 3rem;
+    font-size: 3vw;
 }
 /* contact */
 .contents .contact {
-    width: 761px;
+    width: 39.635416vw;
     margin: 0 auto;
     text-align: center;
     position: relative;
 }
 .contents .contact p {
-    width: 100%; height: 84px;
+    width: 100%; height: 4.375vw;
     border: solid #000 3px;
     color: #000;
-    line-height: 84px;
-    margin: 80px 0 0;
+    line-height: 4.375vw;
+    margin:  4.166666vw 0 0;
     box-sizing: border-box;
     position: absolute;
     background-color: #fff;
@@ -346,14 +357,14 @@ main #typewriter {
 }
 
 .contents .contact div.arrowbox {
-    height: 25px; width:100%;
+    height: 1.302083vw; width:100%;
 }
 .contents .contact div.arrowbox1 {
-    margin-top: 190px;
+    margin-top:  9.895833vw;
 }
 
 .contents .contact .arrowbox .arrow { 
-    height: 25px; width: 30%; text-indent: -9999px; display: none;
+    height: 1.302083vw; width: 30%; text-indent: -9999px; display: none;
 }
 .contents .contact .arrowbox .arrow {
     background: url(../images/contactarrow.png) no-repeat 50% 50% / contain;
@@ -361,7 +372,7 @@ main #typewriter {
 .contents .contact .buttonbox , .contents .contact .arrowbox {
     display: flex;
     justify-content: space-between;
-    margin: 30px 0;
+    margin: 1.5625vw 0;
 }
 .contents .contact .buttonbox button {
     border: solid #000 3px;
@@ -369,9 +380,9 @@ main #typewriter {
     background-color: #fff;
     font-family: 'Lato';
     text-transform: capitalize;
-    height: 76px; width: 30%;
+    height: 3.958333vw; width: 30%;
     box-shadow: 8px 8px 0px 2px rgba(0, 205, 152,0.65);
-    font-size:1.875rem;
+    font-size:1.875vw;
     cursor: pointer;
     box-sizing: border-box;
     display: block;
@@ -386,12 +397,12 @@ main #typewriter {
 } 
 .contents .contact address{
     width: 100%; 
-    height: 126px;
+    height: 6.5625vw;
     border: solid #000 3px;
     display: flex;
     flex-flow: column;
     justify-content: center; align-items: center;
-    margin: 10px 0 263px;
+    margin: 0.520833vw 0 13.697916vw;
     box-sizing: border-box;
 }
 
@@ -399,10 +410,10 @@ main #typewriter {
     display: block;
     font-family: 'Lato';
     text-transform: capitalize;
-    font-size:1.875rem;
+    font-size:1.875vw;
     color: #a8a8a8;
     width: 60%;
-    font-size: 2.25rem;
+    font-size: 2.25vw;
     font-style: normal;
 }
 
