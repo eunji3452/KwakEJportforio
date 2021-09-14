@@ -1,6 +1,6 @@
 @charset "utf-8";
 body {margin: 0; padding: 0;}
-a {display: block;}
+a {display: block; text-decoration: none; color: inherit;}
 ul {padding: 0; margin: 0; list-style: none;}
 img{vertical-align: top;}
 
@@ -183,8 +183,11 @@ main #typewriter {
     width: 34.375vw;
 }
 
+.contents .portforio .pfbox .subTxt h3 {
+    margin: 0 0 5.208333vw;
+}
 .contents .portforio .pfbox .subTxt ul {
-    height: 42.689434vh;
+    height: 20.833333vw;
     display: flex;
     flex-flow: wrap column;
     justify-content: space-between;
@@ -195,8 +198,23 @@ main #typewriter {
 .contents .portforio .pfbox .subTxt ul li:last-child {
     font-weight: bold;
     text-transform: uppercase;
-    background: url(../images/morearrow.png) no-repeat 20% 60% / contain;
+    border: 4px solid #000;
+    width: 280px;
+    display: flex;
+    justify-content: center; align-items: center;
+    box-shadow: 8px 8px 0px 2px rgba(0, 205, 152,0.65);
+    transition: 0.4s;
 }
+.contents .portforio .pfbox .subTxt ul .viewport span{
+    display: block;
+}
+.contents .portforio .pfbox .subTxt ul li:last-child:hover {
+    box-shadow: 0   0   0   0;
+}
+.contents .portforio .pfbox .subTxt ul li.color{color: #000;}
+.contents .portforio .pfbox .subTxt ul li.color span:nth-child(1) {background-color: #24CE7B;}
+.contents .portforio .pfbox .subTxt ul li.color span:nth-child(2) {background-color: #66AD92;}
+.contents .portforio .pfbox .subTxt ul li.color span:nth-child(3) {background-color: #007A4C;}
 /* subcontents */
 .contents .subconts {
     margin-top: 10.67235vh;
