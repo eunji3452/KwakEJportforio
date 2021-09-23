@@ -185,7 +185,10 @@ main #typewriter {
     box-sizing: border-box;
     width: 33.375vw;
 }
-
+.contents .portforio .pfbox .subTxt h3 strong {
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: 700;
+}
 .contents .portforio .pfbox .subTxt h3 {
     margin: 0 0 5.208333vw;
 }
@@ -418,6 +421,8 @@ main #typewriter {
 
 .contents .contact p.assetBox {
     z-index: 1000;
+    color:#a8a8a8 ;
+    font-family: 'SpoqaHanSansR';
 }
 .contents .contact p.firstBox {
     z-index: 100;
